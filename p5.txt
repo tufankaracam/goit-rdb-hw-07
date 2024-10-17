@@ -1,0 +1,1 @@
+select id,date,json_object('id',id,'date',date) as json_info from orders;

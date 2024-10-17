@@ -1,0 +1,1 @@
+select id,date,date_add(date,INTERVAL 1 DAY) as nextday from orders;
